@@ -1,41 +1,22 @@
-# FashionMate - Your Fashion Companion
- 
-**Description:**
-FashioMate is an innovative fashion and wardrobe management platform designed to simplify the way users manage their outfits and explore stylish combinations. Leveraging the power of machine learning and image recognition, FashioMate analyzes outfit images to provide personalized recommendations for users, helping them make informed fashion choices effortlessly.
+# FashionMate Static Website
 
-With FashioMate, users can upload images of their outfits, receive style and fit ratings, and explore the best combinations of tops, bottoms, and shoes tailored to their preferences. The platform also offers a virtual wardrobe feature, allowing users to organize their clothing items by type, color, and occasion for easy access and planning.
+This is a standalone static website for explaining FashionMate's current working features.
+It intentionally lives outside the mobile app folder so website files do not mix with the
+React Native app. The current design is reference-inspired and uses hosted fashion imagery,
+because there were no reusable local website image assets in the app.
 
-FashioMate integrates real-time weather data to provide weather-appropriate clothing suggestions, ensuring users stay stylish and comfortable no matter the forecast. The user-friendly interface, coupled with intuitive navigation and responsive design, offers a seamless experience across devices, empowering users to elevate their fashion game with confidence.
+## Open locally
 
-Whether you're looking for inspiration, seeking outfit feedback, or simply organizing your wardrobe, FashioMate is your ultimate fashion companion. Join us on this journey to revolutionize the way we approach fashion and wardrobe management.
+Open `index.html` in a browser, or serve the folder with any static file server.
 
-**Key Features:**
-- Image recognition and outfit analysis
-- Personalized outfit recommendations
-- Virtual wardrobe organization
-- Real-time weather integration
-- User-friendly interface with responsive design
+```bash
+python -m http.server 8080
+```
 
-**Technologies Used:**
-- Python, TensorFlow, OpenCV for machine learning and image processing
-- Node.js, Express.js for backend development
-- React.js, HTML/CSS, JavaScript for frontend development
-- MongoDB for database management
-- Deployment on AWS, Heroku, or similar cloud platforms
+Then visit `http://localhost:8080`.
 
-**Get Started:**
-1. Clone the repository.
-2. Install dependencies using `npm install` or `yarn install`.
-3. Run the server using `npm start` or `yarn start`.
-4. Access the application in your web browser.
+## Files
 
-Elevate your fashion game with FashioMate - Your Fashion Companion!
-
-**Contributing:**
-We welcome contributions from the community to enhance FashioMate's features and capabilities. Feel free to submit pull requests, report bugs, or share ideas for improvement.
-
-**License:**
-This project is licensed under the [MIT License](link-to-license).
-
-**Contact Us:**
-For inquiries or feedback, please reach out to us at [email@example.com](mailto:email@example.com). We'd love to hear from you!
+- `index.html` - page content and sections.
+- `styles.css` - responsive visual design using FashionMate's current aura palette.
+- `script.js` - small header scroll state enhancement.

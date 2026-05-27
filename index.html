@@ -1,0 +1,252 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta
+      name="description"
+      content="FashionMate is an AI stylist app with wardrobe intelligence, outfit recommendations, Jenny AI, StyleLenz, and virtual try-on."
+    />
+    <title>FashionMate | Your AI Stylist</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <header class="site-header" data-header>
+      <a class="brand" href="#top" aria-label="FashionMate home">
+        <span class="brand-icon">F</span>
+        <span>FashionMate</span>
+      </a>
+      <nav aria-label="Main navigation">
+        <a href="#features">Features</a>
+        <a href="#tryon">Try-On</a>
+        <a href="#download">Download</a>
+      </nav>
+      <button class="menu-button" type="button" aria-label="Open menu">
+        <span></span>
+        <span></span>
+      </button>
+    </header>
+
+    <main id="top">
+      <section class="hero">
+        <div class="hero-bg"></div>
+        <div class="container hero-grid">
+          <div class="hero-copy">
+            <p class="label">AI-powered fashion intelligence</p>
+            <h1>Your AI Stylist, Reimagined.</h1>
+            <p>
+              FashionMate turns your wardrobe, photos, and preferences into smarter
+              outfit ideas, instant style feedback, and realistic virtual try-ons.
+            </p>
+            <div class="hero-actions">
+              <a class="button button-primary" href="#download">Start Your Style Journey</a>
+              <a class="button button-ghost" href="#features">View features</a>
+            </div>
+          </div>
+
+          <div class="hero-visual" aria-label="FashionMate app and outfit preview">
+            <div class="sparkle sparkle-one"></div>
+            <div class="sparkle sparkle-two"></div>
+            <article class="phone-card hero-phone">
+              <div class="phone-top">
+                <span></span>
+                <strong>FashionMate</strong>
+                <i></i>
+              </div>
+              <img
+                src="https://images.unsplash.com/photo-1539008835657-9e8e9680c956?auto=format&fit=crop&w=900&q=82"
+                alt="Styled model wearing a polished outfit"
+              />
+              <div class="scan-panel">
+                <div>
+                  <small>Style Match</small>
+                  <strong>98%</strong>
+                </div>
+                <span class="scan-line"></span>
+              </div>
+            </article>
+            <article class="garment-card">
+              <img
+                src="https://images.unsplash.com/photo-1543076447-215ad9ba6923?auto=format&fit=crop&w=700&q=82"
+                alt="Detailed clothing texture and styling inspiration"
+              />
+              <div>
+                <small>Suggested layer</small>
+                <strong>Deep plum jacket</strong>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="intro-section container">
+        <p class="label">Personal AI wardrobe</p>
+        <h2>Elevate Your Presence</h2>
+        <p>
+          Current working FashionMate features cover the full styling loop:
+          profile setup, digital closet, outfit generation, Jenny AI, StyleLenz,
+          virtual try-on, and a gallery of saved AI looks.
+        </p>
+      </section>
+
+      <section class="feature-stack container" id="features">
+        <article class="feature feature-soft">
+          <div class="feature-copy">
+            <span class="feature-number">01</span>
+            <h3>The AI Stylist</h3>
+            <p>
+              Jenny AI answers fashion questions through chat and voice, understands
+              your profile context, and can return outfit recommendations directly in
+              the conversation.
+            </p>
+            <ul>
+              <li>Text and live voice input</li>
+              <li>AI styling responses</li>
+              <li>Try-on prompts when an outfit is generated</li>
+            </ul>
+          </div>
+          <div class="mini-phone chat-phone">
+            <div class="bubble user">What should I wear tonight?</div>
+            <div class="bubble ai">Try a tailored top, dark denim, and one bold accent.</div>
+          </div>
+        </article>
+
+        <article class="feature feature-purple">
+          <div class="feature-copy">
+            <span class="feature-number">02</span>
+            <h3>Digital Wardrobe</h3>
+            <p>
+              Upload garment photos and FashionMate organizes them with AI-generated
+              details like category, color, pattern, formality, and occasion fit.
+            </p>
+            <ul>
+              <li>Multi-photo garment upload</li>
+              <li>Top, bottom, and metadata filters</li>
+              <li>Background processing for enhanced images</li>
+            </ul>
+          </div>
+          <div class="closet-preview">
+            <img
+              src="https://images.unsplash.com/photo-1551488831-00ddcb6c6bd3?auto=format&fit=crop&w=600&q=82"
+              alt="Organized fashion wardrobe"
+            />
+            <img
+              src="https://images.unsplash.com/photo-1523398002811-999ca8dec234?auto=format&fit=crop&w=600&q=82"
+              alt="Hanging clothes in a curated closet"
+            />
+          </div>
+        </article>
+
+        <article class="feature feature-red" id="tryon">
+          <div class="feature-copy">
+            <span class="feature-number">03</span>
+            <h3>Virtual Try-On</h3>
+            <p>
+              Select a saved full-body photo, combine it with recommended garments,
+              and generate an AI preview of how the outfit looks on you.
+            </p>
+            <ul>
+              <li>Full-body image selection</li>
+              <li>AI prediction polling</li>
+              <li>Saved results in You Are The Model gallery</li>
+            </ul>
+            <a class="button button-light" href="#download">Create your first look</a>
+          </div>
+          <div class="tryon-orb" aria-hidden="true">
+            <span></span>
+            <span></span>
+            <span></span>
+          </div>
+        </article>
+      </section>
+
+      <section class="capabilities container">
+        <article>
+          <span>04</span>
+          <h3>Get My Outfit</h3>
+          <p>
+            Choose occasion, weather, time of day, and vibe to receive ranked outfit
+            combinations from your wardrobe.
+          </p>
+        </article>
+        <article>
+          <span>05</span>
+          <h3>StyleLenz</h3>
+          <p>
+            Upload or capture an outfit photo for a style score, rubric, improvement
+            tips, skin tone notes, and color suggestions.
+          </p>
+        </article>
+        <article>
+          <span>06</span>
+          <h3>Profile Intelligence</h3>
+          <p>
+            Save age, height, body type, style DNA, fit preferences, occasion bias,
+            face images, and full-body images.
+          </p>
+        </article>
+      </section>
+
+      <section class="stats container" aria-label="FashionMate stats">
+        <div>
+          <strong>8</strong>
+          <span>Working feature areas</span>
+        </div>
+        <div>
+          <strong>3</strong>
+          <span>AI image workflows</span>
+        </div>
+        <div>
+          <strong>24/7</strong>
+          <span>Jenny style assistance</span>
+        </div>
+        <div>
+          <strong>AI</strong>
+          <span>Outfit curation engine</span>
+        </div>
+      </section>
+
+      <section class="download container" id="download">
+        <div class="download-copy">
+          <p class="label">Ready to define your signature style?</p>
+          <h2>AI fits that match your lifestyle, closet, and confidence.</h2>
+          <p>
+            Start with your profile, add your wardrobe, ask Jenny for styling help,
+            and preview the final look with FashionMate virtual try-on.
+          </p>
+          <div class="store-buttons">
+            <a href="#" aria-label="Download on iOS">Download for iOS</a>
+            <a href="#" aria-label="Download on Android">Android App</a>
+          </div>
+        </div>
+        <div class="download-phone">
+          <img
+            src="https://images.unsplash.com/photo-1515886657613-9f3515b0c78f?auto=format&fit=crop&w=900&q=82"
+            alt="Fashion model in a confident streetwear look"
+          />
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <a class="brand" href="#top">
+        <span class="brand-icon">F</span>
+        <span>FashionMate</span>
+      </a>
+      <p>AI styling, wardrobe intelligence, and virtual try-on.</p>
+      <div>
+        <a href="#features">Features</a>
+        <a href="#tryon">Try-On</a>
+        <a href="#top">Back to top</a>
+      </div>
+    </footer>
+
+    <script src="./script.js"></script>
+  </body>
+</html>
