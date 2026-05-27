@@ -698,6 +698,82 @@ p {
   font-weight: 800;
 }
 
+.legal-page {
+  padding: 76px 0 30px;
+}
+
+.legal-hero {
+  max-width: 900px;
+  padding: 44px;
+  border-radius: var(--radius-xl);
+  background:
+    radial-gradient(circle at 86% 12%, rgba(255, 217, 222, 0.95), transparent 14rem),
+    rgba(255, 255, 255, 0.78);
+  box-shadow: var(--shadow);
+}
+
+.legal-hero h1 {
+  max-width: 760px;
+  margin-bottom: 14px;
+  font-size: clamp(3rem, 7vw, 5.4rem);
+}
+
+.legal-note {
+  margin-top: 26px;
+  padding: 18px;
+  border-left: 4px solid var(--primary);
+  border-radius: 18px;
+  color: var(--muted);
+  background: rgba(255, 255, 255, 0.72);
+  line-height: 1.7;
+}
+
+.legal-content {
+  max-width: 900px;
+  margin-top: 22px;
+  padding: 44px;
+  border-radius: var(--radius-xl);
+  background: rgba(255, 255, 255, 0.86);
+  box-shadow: var(--soft-shadow);
+}
+
+.legal-content h2 {
+  margin: 42px 0 12px;
+  font-size: clamp(1.45rem, 3vw, 2.2rem);
+  line-height: 1.1;
+}
+
+.legal-content h2:first-of-type {
+  margin-top: 26px;
+}
+
+.legal-content h3 {
+  margin: 30px 0 10px;
+  font-size: 1.12rem;
+  letter-spacing: -0.03em;
+}
+
+.legal-content p,
+.legal-content li {
+  color: var(--muted);
+}
+
+.legal-content ul {
+  display: grid;
+  gap: 8px;
+  margin: 12px 0 18px;
+  padding-left: 22px;
+}
+
+code {
+  padding: 0.12em 0.38em;
+  border-radius: 8px;
+  color: var(--primary);
+  background: var(--lavender);
+  font-family: "Manrope", system-ui, sans-serif;
+  font-weight: 800;
+}
+
 @media (max-width: 920px) {
   .site-header nav {
     display: none;
@@ -826,6 +902,16 @@ p {
 
   .download {
     padding: 30px;
+  }
+
+  .legal-page {
+    padding-top: 52px;
+  }
+
+  .legal-hero,
+  .legal-content {
+    padding: 28px;
+    border-radius: 30px;
   }
 
   .download-phone {
